@@ -1,10 +1,6 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
-import xgboost as xgb
 import joblib
-import seaborn as sns
-import matplotlib.pyplot as plt
 
 # Load the trained model
 model = joblib.load('best_xgb_model.pkl')  # Save your model to this file
